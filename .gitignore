@@ -1,0 +1,16 @@
+.env
+.venv
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+
+# Local editor/runtime artifacts
+.python-version
+
+# Build artifacts
+dist/
+build/
+*.egg-info/

@@ -1,0 +1,20 @@
+spec_version: v1
+kind: external
+name: spotify_music_agent_a2a
+title: Spotify Music Agent
+nickname: spotify_music_agent_a2a
+provider: external_chat/A2A/0.3.0
+description: |
+  A2A agent that answers personalized Spotify listening questions.
+tags:
+  - spotify
+  - a2a
+  - poc
+api_url: "https://<spotify-agent-host>/"
+auth_scheme: NONE
+chat_params:
+  sendHistory: true
+  stream: false
+config:
+  hidden: false
+context_access_enabled: true

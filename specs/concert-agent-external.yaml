@@ -1,0 +1,15 @@
+spec_version: v1
+kind: external
+name: concert_search_agent_a2a
+title: Concert Search Agent
+nickname: concert_search_agent_a2a
+provider: external_chat/A2A/0.3.0
+description: Searches the web for likely upcoming concerts for an artist.
+api_url: "https://<concert-agent-host>/"
+auth_scheme: NONE
+chat_params:
+  sendHistory: true
+  stream: false
+config:
+  hidden: false
+context_access_enabled: true
