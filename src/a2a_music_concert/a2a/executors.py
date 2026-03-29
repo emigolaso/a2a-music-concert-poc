@@ -66,6 +66,6 @@ def _render_music_response(response: MusicAgentResponse) -> str:
         return response.message.strip()
 
     if response.artist_name:
-        return f"Your top artist is {response.artist_name}."
+        return response.artist_name.strip()
 
     return "I couldn't find a Spotify result for that request."
